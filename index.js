@@ -8,7 +8,7 @@
 //     - Wenn `determiner` größer oder gleich 0 ist, sollte der Wert von `x` die Zeichenkette "Greater or equal to 0" sein.
 
 
-const determiner = -80;
+const determiner = 80;
 let x = "less than 0";
 
 determiner < 0 ? x = "Less than 0" : x ="Greater or equal to 0";
@@ -34,13 +34,13 @@ let updater = "Greater or equal to 0";
 if(determiner >= 0) {
     updater = "Greater or equal to 0";
     let message = "Positive Integer";
-    console.log(`${message}`);
+    console.log(`Message: ${message}`);
 } else {
     updater = "Less than 0";
-    console.log(`${updater}`);
+   
 }
 
-
+console.log(`Updater : ${updater}`);
 
 // // 3 Ternary v.s. If statement
 // ernäre Anweisung vs. If-Anweisung
